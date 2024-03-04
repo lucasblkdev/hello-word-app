@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./dist",
+      "jsx": "react-jsx",
+      "esModuleInterop": true
+    },
+    "include": ["**/*.ts", "**/*.tsx", "HelloWorld.jsx"],
+    "exclude": ["node_modules", "dist"]
+  }
+  

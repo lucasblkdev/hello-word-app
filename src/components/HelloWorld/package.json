@@ -1,0 +1,23 @@
+{
+  "name": "hello-agnostic-component",
+  "version": "1.0.3",
+  "main": "dist/HelloWorld.js",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "typescript": "^5.3.3"
+  },
+  "files": [
+    "HelloWorld.tsx",
+    "HelloWorld.js",
+    "HelloWorld.d.ts"
+  ]
+}
